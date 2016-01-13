@@ -7,7 +7,20 @@ Logged In As <%= current_user.email %>
 <li> <%= link_to "Sign Up",new_user_registration_path %> </li>
 <li> <%= link_to "Sign In",new_user_session_path %></li>
 <% end %>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '660212334117262',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
 
-
-
-
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
