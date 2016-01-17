@@ -2,7 +2,7 @@
 
 ## Description
 
-An app to automatically reply to all birthday posts on a user's timeline with a custom message. It uses OmniAuth and Koala gem for user authentication using facebook.
+An app to demonstrate user authentication from facebook using Devise and Omniauth gem used simultaneously.
 
 ## Rails Version
 Version of rails used in this project is 4.2.2 .A gem file containing the version numbers of each gem used in this application is present. 
