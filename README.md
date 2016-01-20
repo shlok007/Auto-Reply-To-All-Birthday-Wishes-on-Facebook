@@ -13,17 +13,17 @@ To install rails in linux based system follow the following guide: http://railsa
 Windows and Mac OS users refer to: http://railsinstaller.org/en 
 
 ## Contributing
-Follow the following steps to setup development environment and start contibuting to proj_05:
+Follow the following steps to setup development environment and start contibuting to Facebook-Integration:
 
-##Setup proj_05 in development environment for linux
+##Setup Facebook-Integration in development environment for linux
 
 1. Clone the repository by running the following command:     
   
-         git clone https://github.com/shlok007/proj_05.git proj_05
+         git clone https://github.com/shlok007/Facebook-Integration.git Facebook-Integration
 
-2. Move inside the directory of proj_05:
+2. Move inside the directory of Facebook-Integration:
          
-         cd proj_05
+         cd Facebook-Integration
 
 3. Run the following to install all required gems:
          
